@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — TabVoice</title>
+  <meta name="description" content="TabVoice privacy policy: your audio and transcripts never leave your machine.">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #030712;
+      color: #f8fafc;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #a78bfa 50%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .glass {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .mesh-gradient {
+      background:
+        radial-gradient(at 0% 0%, rgba(102,126,234,0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(139,92,246,0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(118,75,162,0.12) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, rgba(167,139,250,0.08) 0px, transparent 50%);
+    }
+
+    .prose-privacy h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      color: #f8fafc;
+    }
+
+    .prose-privacy h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+      color: #e2e8f0;
+    }
+
+    .prose-privacy p {
+      color: #94a3b8;
+      line-height: 1.75;
+      margin-bottom: 1rem;
+    }
+
+    .prose-privacy ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: #94a3b8;
+    }
+
+    .prose-privacy li {
+      margin-bottom: 0.5rem;
+      line-height: 1.7;
+    }
+
+    .prose-privacy strong {
+      color: #f8fafc;
+      font-weight: 600;
+    }
+
+    .prose-privacy a {
+      color: #818cf8;
+      text-decoration: none;
+    }
+
+    .prose-privacy a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-gray-950/80 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="./index.html" class="flex items-center gap-3 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center shadow-lg shadow-indigo-500/20 group-hover:shadow-indigo-500/40 transition-shadow">
+          <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" x2="12" y1="19" y2="22"/>
+          </svg>
+        </div>
+        <span class="font-bold text-lg tracking-tight text-white">TabVoice</span>
+      </a>
+      <a href="./index.html" class="hidden sm:inline-flex px-5 py-2.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-medium text-white transition-all hover:border-white/20">
+        Back to home
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative pt-32 pb-16 overflow-hidden">
+    <div class="absolute inset-0 mesh-gradient opacity-50"></div>
+    <div class="absolute top-0 -left-32 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 -right-32 w-96 h-96 bg-violet-600/15 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-3xl mx-auto px-6 text-center">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-sm font-medium mb-6">
+        Privacy by design
+      </span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white mb-6">
+        Privacy <span class="gradient-text">Policy</span>
+      </h1>
+      <p class="text-lg text-slate-400 max-w-2xl mx-auto">
+        TabVoice is built on a simple principle: your audio and transcripts belong to you and never leave your device.
+      </p>
+      <p class="text-sm text-slate-500 mt-4">
+        Effective date: June 29, 2026
+      </p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <main class="flex-1 relative">
+    <div class="absolute inset-0 mesh-gradient opacity-30 pointer-events-none"></div>
+    <div class="relative z-10 max-w-3xl mx-auto px-6 pb-24">
+      <article class="glass rounded-3xl p-8 sm:p-12 prose-privacy">
+
+        <h2>Local processing</h2>
+        <p>
+          All audio capture and transcription is performed locally in your browser using the Whisper AI model. No audio is sent to our servers or to any third party for processing.
+        </p>
+
+        <h2>What data we collect</h2>
+        <p>
+          <strong>We do not collect your audio, transcripts, or browsing history.</strong> TabVoice does not require an account and does not track what you transcribe.
+        </p>
+        <p>
+          The only data stored on your device includes:
+        </p>
+        <ul>
+          <li>Your user preferences (e.g., selected language, overlay position).</li>
+          <li>Transcription session history, including text, timestamps, tags, and source metadata.</li>
+          <li>The AI model files, cached locally after the first download.</li>
+        </ul>
+        <p>
+          All of this data is stored in your browser using <code>chrome.storage.local</code> and remains on your device. We cannot access it.
+        </p>
+
+        <h2>Model download</h2>
+        <p>
+          The AI model is downloaded once from <a href="https://huggingface.co" target="_blank" rel="noopener">Hugging Face</a> and cached in your browser's IndexedDB. After the initial download, TabVoice can work offline. The download is a static model file, not executable code.
+        </p>
+
+        <h2>Permissions</h2>
+        <p>
+          TabVoice requests browser permissions only for the technical operation of the extension:
+        </p>
+        <ul>
+          <li><strong>tabCapture:</strong> to capture audio from the active browser tab.</li>
+          <li><strong>offscreen:</strong> to maintain the audio pipeline and AI model in memory while transcribing.</li>
+          <li><strong>storage:</strong> to save your preferences and transcription sessions locally.</li>
+          <li><strong>sidePanel:</strong> to display the TabVoice user interface.</li>
+          <li><strong>activeTab:</strong> to inject the floating caption overlay when you enable it.</li>
+          <li><strong>host permission:</strong> to work on any website that plays audio, only when you start a capture.</li>
+        </ul>
+
+        <h2>Third parties</h2>
+        <p>
+          TabVoice does not use analytics, advertising, or tracking services in the extension. The landing page uses basic analytics to understand visitor interest, but this is separate from the extension and does not include any audio or transcript data.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          We may update this privacy policy as the product evolves. Any changes will be posted on this page with an updated effective date. Because TabVoice processes everything locally, our privacy commitments are unlikely to change in any meaningful way.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          If you have any questions about this privacy policy or how TabVoice handles your data, contact us at:
+        </p>
+        <p>
+          <a href="mailto:privacy@tabvoice.io">privacy@tabvoice.io</a>
+        </p>
+
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/5 py-12 bg-gray-950">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center">
+          <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" x2="12" y1="19" y2="22"/>
+          </svg>
+        </div>
+        <span class="font-bold text-white">TabVoice</span>
+      </div>
+      <div class="flex items-center gap-6 text-sm text-slate-500">
+        <a href="./index.html" class="hover:text-white transition-colors">Home</a>
+        <a href="./privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+      </div>
+      <p class="text-sm text-slate-500">
+        © 2026 TabVoice.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
